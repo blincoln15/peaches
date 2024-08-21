@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="peaches_home.css"
     </head>
     <body>
-        <h1>Peaches Webpage</h1>
+        <h1>Peaches Login</h1>
+
         <a href="peaches_home.html">
             <button class="button">Home</button>
         </a>
@@ -15,13 +16,22 @@
         <a href="peaches_party.html">
             <button class="button">Peaches' Party</button>
         </a>
-        <button class="button">Page4</button>
-        
-        <a href="peaches_login.html">
-            <button class="rbutton">Log in</button>
-        </a>
+        <button class="button">Page4</button><br>
 
         <hr>
-        <p>Peaches info</p>
+
+        <form>
+            <label for="uname">Username: </label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <label for="pword">Password: </label><br>
+            <input type="text" id="pword" name="pword"><br><br>
+            <a href="peaches_home.html">
+                <input type="submit" value="Log in">
+            </a>
+            
+        </form>
+
+        <hr>
+        
     </body>
 </html>
