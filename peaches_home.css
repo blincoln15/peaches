@@ -27,3 +27,13 @@ iframe {
     height:500px;
     width:500px;
 }
+
+.parallax {
+    background-image: url('./webpage_Img/peaches_parallax.jpg');
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
